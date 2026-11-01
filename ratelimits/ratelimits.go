@@ -14,7 +14,7 @@ package ratelimits
 import (
 	"time"
 
-	"github.com/plusev-terminal/go-plugin-common/meta"
+	"github.com/plusev-terminal/go-plugin-common/v2/meta"
 )
 
 // HeliusRPC returns the manifest rate-limit rules for Helius's keyed mainnet

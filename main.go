@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	ch "github.com/plusev-terminal/go-plugin-common/datasrc/chain"
-	"github.com/plusev-terminal/go-plugin-common/logging"
-	m "github.com/plusev-terminal/go-plugin-common/meta"
-	"github.com/plusev-terminal/go-plugin-common/plugin"
-	"github.com/plusev-terminal/go-plugin-common/requester"
+	ch "github.com/plusev-terminal/go-plugin-common/v2/datasrc/chain"
+	"github.com/plusev-terminal/go-plugin-common/v2/logging"
+	m "github.com/plusev-terminal/go-plugin-common/v2/meta"
+	"github.com/plusev-terminal/go-plugin-common/v2/plugin"
+	"github.com/plusev-terminal/go-plugin-common/v2/requester"
 
 	"github.com/trading-peter/plusev_datasource_helius_plugin/helius"
 	"github.com/trading-peter/plusev_datasource_helius_plugin/ratelimits"
