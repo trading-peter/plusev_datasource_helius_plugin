@@ -29,7 +29,7 @@ func (p *HeliusChainPlugin) GetMeta() m.Meta {
 		Chain:       "solana",
 		Description: "Reliable Solana RPC access via Helius API",
 		Author:      "trading_peter",
-		Version:     "v1.0.0",
+		Version: "v1.1.0",
 		Repository:  "https://github.com/trading-peter/plusev_datasource_helius_plugin",
 		Tags:        []string{"solana", "helius", "rpc", "chain"},
 		Contacts: []m.AuthorContact{
